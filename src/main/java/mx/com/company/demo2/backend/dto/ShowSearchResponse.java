@@ -1,0 +1,7 @@
+package mx.com.company.demo2.backend.dto;
+
+import java.util.List;
+
+public record ShowSearchResponse(Long id, String name, String channel, String summary, List<String> genres,List<CommentResponse> comments) {
+
+}
